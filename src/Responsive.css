@@ -1,0 +1,450 @@
+/*  max-width١٤٤٥*/
+@media (max-width: 1360px) {
+  .Continer h1 {
+    font-size: 5.4em;
+    margin-bottom: 1rem;
+  }
+
+  .Continer p {
+    font-size: 35px;
+  }
+
+  .Continer button {
+    padding: 1rem 2.2rem;
+    font-size: 1.5em;
+  }
+
+  aside img {
+    width: 90%;
+    border-radius: 40em;
+  }
+
+  .box {
+    width: 78em;
+  }
+}
+
+/* ١٢٦٦*/
+@media (max-width: 1266px) {
+  .box {
+    width: 71em;
+  }
+
+  .section main .tagTow {
+    font-size: 1.5em;
+  }
+}
+
+/*١١٤٤*/
+@media (max-width: 1266px) {
+  .box {
+    width: 67em;
+  }
+
+  .Continer h1 {
+    font-size: 4.4em;
+    margin-bottom: 1rem;
+  }
+
+  .Continer h2 {
+    font-size: 3em;
+    margin-bottom: 2rem;
+  }
+
+  .Continer p {
+    font-size: 30px;
+  }
+
+  .Continer button {
+    padding: 1rem 2rem;
+    font-size: 1.6em;
+  }
+
+  /*-----*/
+  aside img {
+    width: 90%;
+    border-radius: 40em;
+  }
+
+  .section main img {
+    width: 100%;
+  }
+}
+
+/*١٠٨٢:px*/
+@media (max-width: 1082px) {
+  .box {
+    width: 62em;
+  }
+}
+
+/*986px*/
+@media (max-width: 986px) {
+  .Continer {
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .box {
+    width: 60em;
+  }
+
+  .me h3 {
+    font-size: 4em;
+    margin-bottom: 1.6rem;
+  }
+
+  .me p {
+    font-size: 1.7em;
+    font-weight: bold;
+  }
+
+  aside img {
+    width: 350px;
+    border-radius: 40em;
+  }
+}
+
+/*890*/
+@media (max-width: 890px) {
+  .box {
+    width: 50em;
+    height: 65rem;
+  }
+
+  .Continer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .Continer h1 {
+    font-size: 4.4em;
+    margin-bottom: 1rem;
+  }
+  .Continer p {
+    font-size: 40px;
+    width: 100%;
+    margin-bottom: 1.6rem;
+    font-weight: 300;
+  }
+  .Continer h2 {
+    font-size: 2.5em;
+    margin-bottom: 2rem;
+  }
+
+  .Continer p {
+    font-size: 30px;
+  }
+
+  .Continer button {
+    padding: 1rem 2.2rem;
+    font-size: 1.5em;
+    margin: 0 auto;
+  }
+
+  .grid-3 {
+    width: 900px;
+  }
+
+  .grid-3 .div {
+    width: 220px;
+    height: 220px;
+  }
+
+  .section {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .me h3 {
+    font-size: 3em;
+    color: #f5f6fa;
+    margin-bottom: 1.6rem;
+  }
+
+  .me hr {
+    margin: 40px 0;
+    opacity: 0.4;
+  }
+
+  .me p {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+/*@media (max-width: 788) {*/
+@media (max-width: 788px) {
+  .box {
+    width: 45em;
+    height: 65rem;
+  }
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 20px;
+    width: 100%;
+    max-width: 10vw;
+  }
+  .CullMe {
+    flex-direction: column;
+  }
+  .CullMe .cull {
+    width: 100%;
+  }
+  .me {
+    width: 100%;
+    height: 100%;
+    padding: 120px 0 0;
+  }
+}
+/* *@media (max-width: 700)*/
+@media (max-width: 700px) {
+  .box {
+    width: 40em;
+    height: 65rem;
+  }
+  .Continer button {
+    margin-top: 1.6rem;
+  }
+  .Continer {
+    padding: 0px;
+  }
+  .Continer h1 {
+    font-size: 4.4em;
+  }
+  .Continer h2 {
+    font-size: 3em;
+    margin-bottom: 1.8rem;
+  }
+  .Continer p {
+    font-size: 30px;
+    margin-bottom: 1.2rem;
+    width: 100%;
+  }
+  .Continer button {
+    padding: 1rem 2.2rem;
+    font-size: 1.7em;
+  }
+}
+/* *@media (max-width: 600)*/
+@media (max-width: 600px) {
+  .box {
+    width: 35em;
+    height: 65rem;
+  }
+}
+/* *@media (max-width: 567)*/
+@media (max-width: 567px) {
+  .box {
+    width: 30em;
+    height: 55rem;
+  }
+  header ul {
+    display: none;
+  }
+  header .menu1 {
+    display: flex;
+    padding: 10px;
+  }
+  .aside img {
+    display: none;
+  }
+  .section main p.tagTow,
+  p.tagOne {
+    padding: 30px;
+    font-size: 28px;
+  }
+  .section main:nth-child(2) {
+    display: none;
+  }
+  .grid-3 .div {
+    width: 200px;
+    height: 200px;
+  }
+
+  .Continer h1 {
+    font-size: 5em;
+    margin-bottom: 1rem;
+  }
+  .Continer h2 {
+    font-size: 2.6em;
+    margin-bottom: 2rem;
+  }
+  .Continer p {
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 9rem;
+    font-weight: 300;
+  }
+}
+/* *@media (max-width: 479px)*/
+@media (max-width: 479px) {
+  .box {
+    width: 25em;
+    height: 55rem;
+  }
+  #showCv .main {
+    width: 400px;
+    height: 200px;
+  }
+
+  .Continer p {
+    font-size: 24px;
+    margin-bottom: 4rem;
+  }
+  .section main {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 380px;
+  }
+  .section main p.tagTow,
+  p.tagOne {
+    font-size: 1.75em;
+    text-align: center;
+    padding: 10px;
+  }
+  .Continer h1 {
+    font-size: 3.9em;
+    margin-bottom: 1rem;
+  }
+  .grid-3 .div {
+    width: 150px;
+    height: 150px;
+  }
+
+  .grid-3 .div h1 {
+    font-size: 5em;
+    color: var(--trakwaze);
+    font-weight: bold;
+  }
+  .grid-3 .div p {
+    color: #0a2e5c;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  #showCv .main {
+    width: 270px;
+    height: 200px;
+  }
+  .me h3 {
+    font-size: 2.5em;
+    color: #f5f6fa;
+    margin-bottom: 1rem;
+  }
+  .me {
+    padding: 120px 0 0;
+  }
+}
+/* *@media (max-width: 479px)*/
+@media (max-width: 383px) {
+  .box {
+    width: 22em;
+    height: 55rem;
+   
+  }
+
+  .Continer {
+    grid-template-columns: 100% 0%;
+    width: 100%;
+    padding: 0;
+  }
+  .Continer h1 {
+    font-size: 3em;
+    margin-bottom: 1rem;
+  }
+
+  .Continer h2 {
+    font-size: 2em;
+    margin-bottom: 3rem;
+  }
+  .Continer p {
+    font-size: 26px;
+    margin-bottom: 3rem;
+    font-weight: 200;
+  }
+  .Continer button {
+    padding: 1rem 2.2rem;
+    font-size: 1.3em;
+  }
+  #showCv .main {
+    width: 200px;
+    height: 200px;
+  }
+
+  #showCv .main a {
+    background: var(--orange);
+    color: #fcfcfc;
+    font-size: 16px;
+    padding: 1rem 2rem;
+  }
+  #showCv .main a:hover {
+    background: #c07d11;
+  }
+  .section main {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 300px;
+    max-height: auto;
+  }
+.section main p.tagTow,
+ .section main p.tagOne {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 1px;
+  
+  }
+    .grid-3 .div {
+    width: 130px;
+    height: 130px;
+  }
+
+  .grid-3 .div h1 {
+    font-size: 4em;
+    color: var(--trakwaze);
+    font-weight: bold;
+  }
+  .grid-3 .div p {
+    color: #0a2e5c;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .CullMe .cull ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--rmade);
+  width: 260px;
+  margin: 40px 0;
+  padding: 8px 10px;
+  border-radius: 12px;
+  box-shadow: 15px 12px var(--orange);
+}
+.NavBar ul li {
+
+  font-size: 19px;
+}
+
+}
+/* ---------
+ */
+ #change button{
+ position: fixed;
+        left:20px;
+        bottom: 24px;
+        width: 48px;
+        height: 48px;
+        display: grid;
+        place-content: center;
+        border-radius: 50%;
+        border: none;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        cursor: pointer;
+        background: var(--orange);
+        color: #fff;
+        font-size: 18px;
+}
